@@ -5,10 +5,9 @@
   "type": "module",
   "scripts": {
     "build": "node --check worker.js",
-    "build:debug": "node --check worker.js",
-    "check": "node --check worker.js && wrangler deploy --dry-run --outdir .wrangler/dry-run",
-    "test": "npm run build && node --test",
-    "deploy": "node --check worker.js && wrangler deploy"
+    "deploy": "npm run build && npx wrangler deploy",
+    "check": "npm run build && npx wrangler deploy --dry-run",
+    "start": "npx wrangler dev"
   },
   "cloudflare": {
     "bindings": {
@@ -24,9 +23,10 @@
     }
   },
   "devDependencies": {
-    "@types/node": "^26.1.2",
-    "esbuild": "^0.28.1",
-    "html-minifier-terser": "^7.2.0",
     "wrangler": "^4.116.0"
-  }
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "packageManager": "npm@10"
 }
