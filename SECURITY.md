@@ -39,7 +39,7 @@ Your panel's admin password is stored in your own D1/KV (or as a Worker secret y
 Please report security issues privately first, so users are not exposed before a
 fix ships:
 
-- Telegram: **[@irparmis_proxy](https://t.me/irparmis_proxy)** (DM the maintainers)
+- Telegram: **[@zavali20_proxy](https://t.me/zavali20_proxy)** (DM the maintainers)
 - Or open a **private security advisory** on this repository (Security tab, "Report a vulnerability").
 
 We aim to acknowledge reports quickly and to credit reporters who want it. We do
