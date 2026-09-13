@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "node --check worker.js",
-    "deploy": "npm run build && npx wrangler deploy",
-    "check": "npm run build && npx wrangler deploy --dry-run",
+    "deploy": "npm run build && npx wrangler deploy --config wrangler.jsonc",
+    "check": "npm run build && npx wrangler deploy --config wrangler.jsonc --dry-run",
     "start": "npx wrangler dev"
   },
   "cloudflare": {
