@@ -15,8 +15,8 @@ VLESS، Trojan، Shadowsocks، gRPC، XHTTP روی WebSocket + TLS، با پنل
 WARP، زنجیره پروکسی و حالت Backend. اجرا روی **پلن رایگان** Cloudflare.
 
 [![License](https://img.shields.io/badge/مجوز-PolyForm%20Noncommercial-green?style=for-the-badge)](LICENSE)
-[![Version](https://img.shields.io/badge/نسخه-4.5.2-blueviolet?style=for-the-badge)](https://github.com/IRNova/Nova-Proxy)
-[![Stars](https://img.shields.io/github/stars/IRNova/Nova-Proxy?style=for-the-badge&color=0ea5e9)](https://github.com/IRNova/Nova-Proxy)
+[![Version](https://img.shields.io/badge/نسخه-4.5.2-blueviolet?style=for-the-badge)](https://github.com/IRParmis/Parmis-Proxy)
+[![Stars](https://img.shields.io/github/stars/IRParmis/Parmis-Proxy?style=for-the-badge&color=0ea5e9)](https://github.com/IRParmis/Parmis-Proxy)
 
 </div>
 
@@ -26,12 +26,12 @@ WARP، زنجیره پروکسی و حالت Backend. اجرا روی **پلن �
 
 <div align="center">
 
-[![Website](https://img.shields.io/badge/🌐%20سایت-novaproxy.online-0ea5e9?style=for-the-badge)](https://novaproxy.online/)
-[![Telegram Channel](https://img.shields.io/badge/✈️%20کانال%20تلگرام-@irnova__proxy-0ea5e9?style=for-the-badge&logo=telegram)](https://t.me/irnova_proxy)
-[![Telegram Group](https://img.shields.io/badge/👥%20گروه%20تلگرام-@irnovaproxy__group-0ea5e9?style=for-the-badge&logo=telegram)](https://t.me/irnovaproxy_group)
-[![YouTube](https://img.shields.io/badge/▶️%20یوتیوب-@novaproxyir-ff0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@novaproxyir)
-[![X (Twitter)](https://img.shields.io/badge/𝕏%20شبکه%20ایکس-@irNovaProxy-000000?style=for-the-badge&logo=x)](https://x.com/irNovaProxy)
-[![Instagram](https://img.shields.io/badge/📸%20اینستاگرام-@irnova__proxy-E4405F?style=for-the-badge&logo=instagram)](https://www.instagram.com/irnova_proxy)
+[![Website](https://img.shields.io/badge/🌐%20سایت-parmisproxy.online-0ea5e9?style=for-the-badge)](https://parmisproxy.online/)
+[![Telegram Channel](https://img.shields.io/badge/✈️%20کانال%20تلگرام-@irparmis__proxy-0ea5e9?style=for-the-badge&logo=telegram)](https://t.me/irparmis_proxy)
+[![Telegram Group](https://img.shields.io/badge/👥%20گروه%20تلگرام-@irparmisproxy__group-0ea5e9?style=for-the-badge&logo=telegram)](https://t.me/irparmisproxy_group)
+[![YouTube](https://img.shields.io/badge/▶️%20یوتیوب-@parmisproxyir-ff0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@parmisproxyir)
+[![X (Twitter)](https://img.shields.io/badge/𝕏%20شبکه%20ایکس-@irParmisProxy-000000?style=for-the-badge&logo=x)](https://x.com/irParmisProxy)
+[![Instagram](https://img.shields.io/badge/📸%20اینستاگرام-@irparmis__proxy-E4405F?style=for-the-badge&logo=instagram)](https://www.instagram.com/irparmis_proxy)
 
 </div>
 
@@ -60,17 +60,17 @@ WARP، زنجیره پروکسی و حالت Backend. اجرا روی **پلن �
 
 روش مورد نظر خود را انتخاب کنید:
 
-### 🖥️ Nova Wizard (دسکتاپ)
+### 🖥️ Parmis Wizard (دسکتاپ)
 
 نرم‌افزار رسمی دسکتاپ با رابط گرافیکی، بدون نیاز به دانش فنی.
 
-[**→ دانلود Nova Wizard برای ویندوز و لینوکس**](https://github.com/IRNova/Nova-Wizard)
+[**→ دانلود Parmis Wizard برای ویندوز و لینوکس**](https://github.com/IRParmis/Parmis-Wizard)
 
 ### 🌐 راهنمای امن نصب
 
-صفحهٔ رسمی Nova هیچ رمز Cloudflare یا API Token دریافت نمی‌کند و شما را به مسیر امن نصب هدایت می‌کند:
+صفحهٔ رسمی Parmis هیچ رمز Cloudflare یا API Token دریافت نمی‌کند و شما را به مسیر امن نصب هدایت می‌کند:
 
-[**→ novaproxy.online/setup/**](https://novaproxy.online/setup/)
+[**→ parmisproxy.online/setup/**](https://parmisproxy.online/setup/)
 
 ---
 
@@ -88,7 +88,7 @@ WARP، زنجیره پروکسی و حالت Backend. اجرا روی **پلن �
 Cloudflare Workers نمی‌تواند پروکسی TCP بومی اجرا کند یا ترافیک UDP را مستقیماً مدیریت کند. برای فعال‌سازی این قابلیت‌ها، نوا از **حالت Backend** پشتیبانی می‌کند، ارسال ترافیک به VPS شخصی Xray یا sing-box.
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/IRNova/Tools/main/nova-backend.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/IRParmis/Tools/main/parmis-backend.sh)
 ```
 
 پس از اجرای نصاب، حالت Backend را در پنل نوا فعال کنید (تنظیمات شبکه → حالت Backend) و آدرس VPS خود را وارد کنید.
@@ -230,9 +230,9 @@ bash <(curl -fsSL https://raw.githubusercontent.com/IRNova/Tools/main/nova-backe
 
 <div align="center">
 
-### ⭐ [به نوا در گیتهاب ستاره بدهید](https://github.com/IRNova/Nova-Proxy) ⭐
+### ⭐ [به نوا در گیتهاب ستاره بدهید](https://github.com/IRParmis/Parmis-Proxy) ⭐
 
-[![Star on GitHub](https://img.shields.io/github/stars/IRNova/Nova-Proxy?style=for-the-badge&logo=github&label=Star%20Nova&color=8957e5)](https://github.com/IRNova/Nova-Proxy)
+[![Star on GitHub](https://img.shields.io/github/stars/IRParmis/Parmis-Proxy?style=for-the-badge&logo=github&label=Star%20Parmis&color=8957e5)](https://github.com/IRParmis/Parmis-Proxy)
 
 | ارز دیجیتال | آدرس |
 |-------------|------|
@@ -252,10 +252,10 @@ bash <(curl -fsSL https://raw.githubusercontent.com/IRNova/Tools/main/nova-backe
 
 ## 📜 شرایط: رایگان است و برای فروش نیست
 
-نوا به‌صورت **نسخهٔ محافظت‌شده** منتشر می‌شود: مخزن عمومی فقط فایل استقرار ⁦`worker.js`⁩ (کوچک‌سازی و مبهم‌سازی‌شده) و دادهٔ استقرار آن را دارد و سورس قابل‌نگهداری پنل خصوصی می‌ماند. این همان مدل **«پنل محافظت‌شده، ابزارها باز»** است: پنل محافظت می‌شود، اما ابزارهای پیرامونی (کلاینت‌ها، ⁦Nova Radar⁩ و کمک‌ابزارهای تأییدشده) باز می‌مانند. نوا یک **سرویس رایگان** است، پس شرایط زیر برای نام نوا و کانفیگ‌هایی که می‌سازد اعمال می‌شود:
+نوا به‌صورت **نسخهٔ محافظت‌شده** منتشر می‌شود: مخزن عمومی فقط فایل استقرار ⁦`worker.js`⁩ (کوچک‌سازی و مبهم‌سازی‌شده) و دادهٔ استقرار آن را دارد و سورس قابل‌نگهداری پنل خصوصی می‌ماند. این همان مدل **«پنل محافظت‌شده، ابزارها باز»** است: پنل محافظت می‌شود، اما ابزارهای پیرامونی (کلاینت‌ها، ⁦Parmis Radar⁩ و کمک‌ابزارهای تأییدشده) باز می‌مانند. نوا یک **سرویس رایگان** است، پس شرایط زیر برای نام نوا و کانفیگ‌هایی که می‌سازد اعمال می‌شود:
 
 - **نفروش.** کانفیگ‌ها، اشتراک‌ها یا دسترسی نوا را به‌عنوان محصول پولی نفروش. نوا برای همه رایگان است.
-- **نشان سرویس رایگان را حذف نکن.** هر نودِ ساخته‌شده یک نشان قفل‌شدهٔ `سرویس رایگان نوا @irnova_proxy` دارد. حذف آن برای جا زدن کانفیگ‌ها به‌عنوان سرویس پولی خودت مجاز نیست.
+- **نشان سرویس رایگان را حذف نکن.** هر نودِ ساخته‌شده یک نشان قفل‌شدهٔ `سرویس رایگان نوا @irparmis_proxy` دارد. حذف آن برای جا زدن کانفیگ‌ها به‌عنوان سرویس پولی خودت مجاز نیست.
 - **اعتبار را نگه دار.** اگر فورک یا بازتوزیع می‌کنی، اعتبار نوا پروکسی و لینک به این ریپازیتوری را نگه دار.
 - **جعل هویت نکن.** از نام، لوگو یا کانال نوا برای جا زدن یک نسخهٔ ری‌برندشده به‌عنوان نوای رسمی استفاده نکن.
 
@@ -271,13 +271,13 @@ bash <(curl -fsSL https://raw.githubusercontent.com/IRNova/Tools/main/nova-backe
 
 <div align="center">
 
-ساخته شده برای ایران <img src="https://raw.githubusercontent.com/IRNova/Nova-Proxy/main/flag-iran.svg" height="16" alt="Iran (Lion and Sun)" />، و هرکس که به اینترنت آزاد نیاز دارد.
+ساخته شده برای ایران <img src="https://raw.githubusercontent.com/IRParmis/Parmis-Proxy/main/flag-iran.svg" height="16" alt="Iran (Lion and Sun)" />، و هرکس که به اینترنت آزاد نیاز دارد.
 **هیچ اطلاعاتی از ترافیک شما ذخیره نمی‌شود. پروکسی متعلق به خود شماست.**
 
 📖 [نسخه انگلیسی / English version](README.md)
 
 ---
-<a href="https://star-history.com/#IRNova/Nova-Proxy&Date">تاریخچهٔ ستاره‌ها</a>
+<a href="https://star-history.com/#IRParmis/Parmis-Proxy&Date">تاریخچهٔ ستاره‌ها</a>
 </div>
 
 ---

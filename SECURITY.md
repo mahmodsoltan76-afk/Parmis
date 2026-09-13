@@ -1,6 +1,6 @@
 # Security and verification
 
-Nova Proxy carries traffic for people in high-censorship networks, so being able
+Parmis Proxy carries traffic for people in high-censorship networks, so being able
 to trust the code is part of the product. This document explains how to verify
 what you run, and how to report a problem.
 
@@ -9,7 +9,7 @@ what you run, and how to report a problem.
 - `worker.js` in this repository is the **complete, unminified source** of the
   Worker. There is no separate build step, bundler, or obfuscation: the file you
   read is the file that runs.
-- Nova Proxy is **self-hosted**. When you use "Deploy to Cloudflare" or run
+- Parmis Proxy is **self-hosted**. When you use "Deploy to Cloudflare" or run
   `wrangler deploy`, Cloudflare deploys exactly the `worker.js` in your fork at
   that commit. You are never asked to trust a binary you cannot read.
 - Every push runs the [`Verify worker.js`](.github/workflows/verify.yml) CI,
@@ -21,8 +21,8 @@ what you run, and how to report a problem.
   ```
 
 - The organization also keeps a central, credential-free verifier at
-  [`IRNova/reproducible-builds`](https://github.com/IRNova/reproducible-builds),
-  which cross-checks the hashes of Nova's public artifacts (this Worker and the
+  [`IRParmis/reproducible-builds`](https://github.com/IRParmis/reproducible-builds),
+  which cross-checks the hashes of Parmis's public artifacts (this Worker and the
   installer site) from source.
 
 ## Panel version pinning
@@ -39,7 +39,7 @@ Your panel's admin password is stored in your own D1/KV (or as a Worker secret y
 Please report security issues privately first, so users are not exposed before a
 fix ships:
 
-- Telegram: **[@irnova_proxy](https://t.me/irnova_proxy)** (DM the maintainers)
+- Telegram: **[@irparmis_proxy](https://t.me/irparmis_proxy)** (DM the maintainers)
 - Or open a **private security advisory** on this repository (Security tab, "Report a vulnerability").
 
 We aim to acknowledge reports quickly and to credit reporters who want it. We do

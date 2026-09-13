@@ -2,7 +2,7 @@
   "version": "4.8.1",
   "released": "2026-09-08",
   "notes": "A one-line correction to 4.8.0. The panel reported version V4.7.4 even after updating, because the constant the panel reads was never bumped for 4.8.0 while version.json was. Every updated panel therefore compared its own reported version against the release, concluded it was out of date, and showed \"update available\" permanently; pressing update redeployed the identical build and the notice came back.\n\nNothing was wrong with 4.8.0 itself. Panels running it have the correct code and every 4.8.0 change is present. Only the number shown, and the update notice that followed from it, were wrong.\n\nThe build now refuses to produce a release whose reported version disagrees with the release version, so this cannot recur.",
-  "worker_url": "https://raw.githubusercontent.com/IRNova/Nova-Proxy/main/worker.js",
+  "worker_url": "https://raw.githubusercontent.com/IRParmis/Parmis-Proxy/main/worker.js",
   "protected": true,
   "worker_sha256": "2088346c0b84df0d5302ac95119f0426ebd41ebf11e961e9526388ab6d3cd2cb"
 }

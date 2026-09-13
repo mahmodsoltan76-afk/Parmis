@@ -1,4 +1,4 @@
-# Nova Proxy 4.8.1
+# Parmis Proxy 4.8.1
 
 A correction to 4.8.0. If your panel says it is on **V4.7.4** and keeps offering an update that never seems to apply, this is the release that fixes it.
 
@@ -12,7 +12,7 @@ A correction to 4.8.0. If your panel says it is on **V4.7.4** and keeps offering
 
 - The panel now reports the version it is actually running.
 - The update notice appears only when there is genuinely something newer.
-- Nova now refuses to build a release whose reported version disagrees with the release itself, so this cannot happen again.
+- Parmis now refuses to build a release whose reported version disagrees with the release itself, so this cannot happen again.
 
 ## Updating
 
